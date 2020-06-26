@@ -5,18 +5,6 @@ import { FaDatabase, FaHandHolding, FaUsers, FaCheck } from "react-icons/fa";
 function Home() {
   return (
     <div>
-      <div className="nav-bar">
-        <h1>Exam Site</h1>
-        <nav>
-          <li>Skill Library</li>
-          <li>Features</li>
-          <li>Pricing</li>
-        </nav>
-        <div className="nav-btn">
-          <button className="btn "> Log in</button>
-          <button className="btn gray">Schedule a demo</button>
-        </div>
-      </div>
       <header>
         <div className="home-header ">
           <h2>Hire Job fit candidates</h2>
@@ -91,6 +79,12 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className="trial">
+        <div>
+          <h1>Make Smart decitions</h1>
+          <button className="btn">Start 14 day free trial</button>
+        </div>
+      </section>
       <section className="assessment">
         <div className="container grid-2 ">
           <div>
@@ -132,12 +126,7 @@ function Home() {
           <img src="/img/assessment.jpg" alt="" />
         </div>
       </section>
-      <section className="trial">
-        <div>
-          <h1>Make Smart decitions</h1>
-          <button className="btn">Start 14 day free trial</button>
-        </div>
-      </section>
+
       <footer class="center bg-dark">
         <p>Examsite &copy;2020</p>
       </footer>
