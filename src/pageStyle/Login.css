@@ -43,3 +43,10 @@
   cursor: pointer;
   font-size: large;
 }
+
+/* media queries */
+@media (max-width: 768px) {
+  .login-form {
+    height: 70vh;
+  }
+}

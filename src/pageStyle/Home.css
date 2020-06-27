@@ -122,3 +122,24 @@
   color: white;
   height: 30px;
 }
+
+@media (max-width: 768px) {
+  .home-header h2 {
+    margin-bottom: 20px;
+  }
+  .home-header h3 {
+    display: none;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .grid-2 img {
+    margin-left: 60px;
+  }
+  .grid-2 h1 {
+    padding-top: 20px;
+  }
+  .grid-2 ul {
+    padding: 20px 0 30px 30px;
+  }
+}

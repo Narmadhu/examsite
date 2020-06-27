@@ -127,7 +127,9 @@ function Home() {
               </li>
             </ul>
           </div>
-          <img src="/img/assessment.jpg" alt="" />
+          <div>
+            <img src="/img/assessment.jpg" alt="" />
+          </div>
         </div>
       </section>
 

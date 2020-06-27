@@ -1,7 +1,7 @@
 nav {
   background-color: rgb(46, 43, 43);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   border: 0.1px solid rgb(218, 215, 215);
 }
 nav h1 {
@@ -34,4 +34,18 @@ nav li {
   border: none;
   outline: none;
   cursor: pointer;
+}
+/* media queries */
+@media (max-width: 768px) {
+  nav h1,
+  nav,
+  nav li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .nav-btn {
+    display: none;
+  }
 }

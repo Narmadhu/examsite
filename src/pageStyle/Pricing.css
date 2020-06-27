@@ -74,3 +74,14 @@
   background-color: black;
   color: white;
 }
+
+/* media queries */
+@media (max-width: 768px) {
+  .grids {
+    grid-template-columns: 1fr;
+    margin-left: 50px;
+  }
+  .contact-info h3 {
+    display: none;
+  }
+}

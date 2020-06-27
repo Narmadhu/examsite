@@ -10,9 +10,6 @@ function Nav() {
           <h1>Exam Site</h1>
         </Link>
         <ul>
-          <Link to="/features" style={{ textDecoration: "none" }}>
-            <li>Features</li>
-          </Link>
           <Link to="/pricing" style={{ textDecoration: "none" }}>
             <li>Pricing</li>
           </Link>

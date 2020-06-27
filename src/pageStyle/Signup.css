@@ -1,6 +1,6 @@
 .signup-form {
   border: 1px solid black;
-  height: 70vh;
+  height: 75vh;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,4 +52,12 @@
   margin: 20px 0;
   cursor: pointer;
   font-size: large;
+}
+
+/* media quries */
+@media (max-width: 768px) {
+  .signup-form {
+    width: 300px;
+    height: 500px;
+  }
 }
