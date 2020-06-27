@@ -1,5 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Features from "./pages/Features";
@@ -18,6 +20,8 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/features" component={Features} />
           <Route path="/pricing" component={Pricing} />
+          <Route path="/login" component={Login} />
+          <Route path="/signup" component={Signup} />
         </Switch>
       </div>
     </Router>

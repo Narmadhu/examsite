@@ -21,7 +21,9 @@ function Nav() {
           </Link>
         </ul>
         <div className="nav-btn">
-          <button className="btn "> Log in</button>
+          <Link to="/login">
+            <button className="btn "> Log in</button>
+          </Link>
           <button className="btn gray">Schedule a demo</button>
         </div>
       </nav>

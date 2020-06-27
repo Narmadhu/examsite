@@ -1,6 +1,7 @@
 import React from "react";
 import "../pageStyle/Pricing.css";
 import { FaCheck } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Pricing() {
   return (
@@ -110,7 +111,6 @@ function Pricing() {
                   Lorem ipsum dolo
                 </li>
                 <li>
-                  {" "}
                   <span>
                     <FaCheck color="green" />
                   </span>
@@ -138,7 +138,9 @@ function Pricing() {
             odio, aliquid.
           </h3>
           <div>
-            <button className="btn black ">Contact Us</button>
+            <Link to="/contact">
+              <button className="btn black">Contact Us</button>
+            </Link>
             <button className="btn ">Schedule a demo</button>
           </div>
         </div>
