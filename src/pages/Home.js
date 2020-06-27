@@ -1,6 +1,7 @@
 import React from "react";
 import "../pageStyle/Home.css";
 import { FaDatabase, FaHandHolding, FaUsers, FaCheck } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -12,7 +13,9 @@ function Home() {
             The most comprehensive skills assessment solution with 1,500+ ready
             skills, enterprise assessment platform, ATS integrations and more.
           </h3>
-          <button className="btn gray header-btn">Schedule a demo</button>
+          <Link to="/signup">
+            <button className="btn header-btn">Schedule a demo</button>
+          </Link>
         </div>
       </header>
       <section class="serices">
@@ -81,7 +84,9 @@ function Home() {
       <section className="trial">
         <div>
           <h1>Make Smart decitions</h1>
-          <button className="btn">Start 14 day free trial</button>
+          <Link to="/signup">
+            <button className="btn">Start 14 day free trial</button>
+          </Link>
         </div>
       </section>
       <section className="assessment">

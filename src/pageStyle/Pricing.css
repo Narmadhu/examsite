@@ -57,6 +57,7 @@
   font-size: x-large;
   font-weight: 700;
   cursor: pointer;
+  outline: none;
 }
 .contact-info {
   height: 40vh;

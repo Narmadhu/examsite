@@ -141,7 +141,9 @@ function Pricing() {
             <Link to="/contact">
               <button className="btn black">Contact Us</button>
             </Link>
-            <button className="btn ">Schedule a demo</button>
+            <Link to="/Signup">
+              <button className="btn ">Schedule a demo</button>
+            </Link>
           </div>
         </div>
       </section>
