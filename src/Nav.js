@@ -10,14 +10,14 @@ function Nav() {
           <h1>Exam Site</h1>
         </Link>
         <ul>
-          <Link to="/skilllibrary" style={{ textDecoration: "none" }}>
-            <li>Skill Library</li>
-          </Link>
           <Link to="/features" style={{ textDecoration: "none" }}>
             <li>Features</li>
           </Link>
           <Link to="/pricing" style={{ textDecoration: "none" }}>
             <li>Pricing</li>
+          </Link>
+          <Link to="/contact" style={{ textDecoration: "none" }}>
+            <li>Contact</li>
           </Link>
         </ul>
         <div className="nav-btn">

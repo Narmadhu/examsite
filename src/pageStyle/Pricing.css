@@ -1,0 +1,75 @@
+.price {
+  background-color: rgb(202, 198, 198);
+  height: 40vh;
+  text-align: center;
+  padding-top: 100px;
+  font-size: x-large;
+}
+
+.grids {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: none;
+}
+
+.box {
+  box-shadow: 0 0 20px #7e7c7cb3;
+  width: 350px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 50px;
+}
+.grids h2 {
+  font-size: x-large;
+}
+.plan {
+  padding: 30px 0;
+}
+.grids h1 {
+  font-size: xx-large;
+}
+.grids ul {
+  list-style: none;
+}
+.grids li {
+  padding: 30px 0;
+}
+.grids ul span {
+  margin-right: 30px;
+}
+.box-special {
+  box-shadow: 0 0 20px #000000b3;
+  background-color: #f4f4f4;
+}
+.plan-special {
+  background-color: lightblue;
+  margin: 0 30px;
+  padding-top: 20px;
+}
+.plan-btn {
+  background-color: lightblue;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: x-large;
+  font-weight: 700;
+  cursor: pointer;
+}
+.contact-info {
+  height: 40vh;
+  padding: 50px 40px;
+  text-align: center;
+}
+.contact-info h2 {
+  padding-bottom: 30px;
+}
+.contact-info h3 {
+  padding: 0 10em 30px 10em;
+}
+.black {
+  background-color: black;
+  color: white;
+}

@@ -19,8 +19,7 @@ function Home() {
         <div class="container grid-3 center">
           <div className="grid">
             <FaDatabase size={60} />
-
-            <h1>Accomadation</h1>
+            <h1>largest skill assessment library</h1>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
               quisquam deleniti! Cum aliquam aperiam impedit neque omnis itaque
@@ -30,7 +29,7 @@ function Home() {
           </div>
           <div className="grid">
             <FaHandHolding size={60} />
-            <h1>Emergency Serives</h1>
+            <h1>Data driven hiring decisions</h1>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
               quisquam deleniti! Cum aliquam aperiam impedit neque omnis itaque
