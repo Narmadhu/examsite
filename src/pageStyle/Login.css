@@ -13,8 +13,9 @@
   background: white;
 }
 
-.login-name {
+.login-email {
   width: 100%;
+  font-size: large;
   outline: none;
   display: block;
   padding: 10px;
@@ -24,6 +25,7 @@
 }
 .login-password {
   width: 100%;
+  font-size: large;
   outline: none;
   display: block;
   padding: 10px;

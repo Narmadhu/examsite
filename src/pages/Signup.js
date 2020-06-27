@@ -7,22 +7,31 @@ function Signup() {
     <div>
       <form className="signup-form">
         <h1>Sign Up </h1>
-        <input className="signup-name" type="text" placeholder="Name" />
+        <input
+          className="signup-name"
+          type="text"
+          placeholder="Name"
+          required
+        />
+
         <input
           className="signup-email"
           type="text"
-          name=""
-          id=""
           placeholder="Email"
+          required
         />
+
         <input
           className="signup-password"
           type="password"
           placeholder="Password"
+          required
         />
+
         <button className="signup-btn black" type="submit">
           Sign Up
         </button>
+
         <p>
           Already have an Account? <Link to="/login">Login</Link>
         </p>
@@ -30,4 +39,5 @@ function Signup() {
     </div>
   );
 }
+
 export default Signup;
