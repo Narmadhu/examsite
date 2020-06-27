@@ -22,7 +22,7 @@ function Nav() {
             <button className="btn "> Log in</button>
           </Link>
           <Link to="/signup">
-            <button className="btn gray">Sign up</button>
+            <button className="btn gray ">Sign up</button>
           </Link>
         </div>
       </nav>
