@@ -21,14 +21,15 @@ function Contact() {
           <textarea id="input-box" placeholder="Message"></textarea>
         </div>
         <div>
-          <a
+          <button
             id="submit-btn"
+            type="button"
             onClick={() => {
               setModalIsOpen(true);
             }}
           >
             Submit
-          </a>
+          </button>
         </div>
       </form>
 

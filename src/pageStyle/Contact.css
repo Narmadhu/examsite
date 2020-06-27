@@ -35,6 +35,8 @@
   width: 100%;
   outline: none;
   margin-left: 10px;
+  border: none;
+  outline: none;
 }
 #submit-btn:hover {
   background-color: black;
