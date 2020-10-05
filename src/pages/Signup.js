@@ -28,9 +28,7 @@ function Signup() {
           required
         />
 
-        <button className="signup-btn black" type="submit">
-          Sign Up
-        </button>
+        <button className="signup-btn black">Sign Up</button>
 
         <p>
           Already have an Account? <Link to="/login">Login</Link>
